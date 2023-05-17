@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "iPhone 13",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "price": 249000,
+      "id": 1,
+      "image": "iphone13.jpg"
+    }
+  ],
+  "brands": [
+    {
+      "brand": "Sony",
+      "imageUrl": "https://pixabay.com/images/id-1283938/"
+    }
+  ]
+}

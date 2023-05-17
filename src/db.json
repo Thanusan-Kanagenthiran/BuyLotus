@@ -1,0 +1,523 @@
+{
+  "products": [
+    {
+      "name": "iPhone 13",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "price": 249000,
+      "id": 1,
+      "image": "/images/img1.jpg"
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "price": 199000,
+      "id": 2,
+      "image": "/images/image/img1.jpg"
+    },
+    {
+      "name": "Sony PlayStation 5",
+      "brand": "Sony",
+      "category": "Gaming Consoles",
+      "price": 159990,
+      "id": 3,
+      "image": "playstation5.jpg"
+    },
+    {
+      "name": "Canon EOS R5",
+      "brand": "Canon",
+      "category": "Cameras",
+      "price": 775000,
+      "id": 4,
+      "image": "eosr5.jpg"
+    },
+    {
+      "name": "Dell XPS 13",
+      "brand": "Dell",
+      "category": "Laptops",
+      "price": 369990,
+      "id": 5,
+      "image": "xps13.jpg"
+    },
+    {
+      "name": "Nike Air Max 270",
+      "brand": "Nike",
+      "category": "Footwear",
+      "price": 19900,
+      "id": 6,
+      "image": "airmax270.jpg"
+    },
+    {
+      "name": "Bose QuietComfort 35 II",
+      "brand": "Bose",
+      "category": "Headphones",
+      "price": 52990,
+      "id": 7,
+      "image": "quietcomfort35ii.jpg"
+    },
+    {
+      "name": "Amazon Echo Dot (4th Gen)",
+      "brand": "Amazon",
+      "category": "Smart Speakers",
+      "price": 16990,
+      "id": 8,
+      "image": "echodot4thgen.jpg"
+    },
+    {
+      "name": "Fitbit Versa 3",
+      "brand": "Fitbit",
+      "category": "Fitness Trackers",
+      "price": 52990,
+      "id": 9,
+      "image": "fitbitversa3.jpg"
+    },
+    {
+      "name": "Microsoft Xbox Series X",
+      "brand": "Microsoft",
+      "category": "Gaming Consoles",
+      "price": 117990,
+      "id": 10,
+      "image": "xboxseriesx.jpg"
+    },
+    {
+      "name": "GoPro Hero9 Black",
+      "brand": "GoPro",
+      "category": "Action Cameras",
+      "price": 102990,
+      "id": 11,
+      "image": "goprohero9.jpg"
+    },
+    {
+      "name": "LG OLED C1",
+      "brand": "LG",
+      "category": "Televisions",
+      "price": 649990,
+      "id": 12,
+      "image": "lgoledc1.jpg"
+    },
+    {
+      "name": "Tesla Model 3",
+      "brand": "Tesla",
+      "category": "Electric Vehicles",
+      "price": 16500000,
+      "id": 13,
+      "image": "teslamodel3.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Watch 4",
+      "brand": "Samsung",
+      "category": "Smartwatches",
+      "price": 39990,
+      "id": 14,
+      "image": "galaxywatch4.jpg"
+    },
+    {
+      "name": "HP Pavilion Gaming Laptop",
+      "brand": "HP",
+      "category": "Laptops",
+      "price": 234990,
+      "id": 15,
+      "image": "hppaviliongaming.jpg"
+    },
+    {
+      "name": "Adidas Ultraboost",
+      "brand": "Adidas",
+      "category": "Footwear",
+      "price": 24990,
+      "id": 16,
+      "image": "adidasultraboost.jpg"
+    },
+    {
+      "name": "Sony WH-1000XM4",
+      "brand": "Sony",
+      "category": "Headphones",
+      "price": 46990,
+      "id": 17,
+      "image": "wh1000xm4.jpg"
+    },
+    {
+      "name": "Google Nest Hub",
+      "brand": "Google",
+      "category": "Smart Home",
+      "price": 19990,
+      "id": 18,
+      "image": "googlenesthub.jpg"
+    },
+    {
+      "name": "Garmin Forerunner 245",
+      "brand": "Garmin",
+      "category": "Fitness Trackers",
+      "price": 49990,
+      "id": 19,
+      "image": "forerunner245.jpg"
+    },
+    {
+      "name": "Microsoft Surface Pro 7",
+      "brand": "Microsoft",
+      "category": "Tablets",
+      "price": 309990,
+      "id": 20,
+      "image": "surfacepro7.jpg"
+    },
+    {
+      "name": "Fujifilm X-T4",
+      "brand": "Fujifilm",
+      "category": "Cameras",
+      "price": 499990,
+      "id": 21,
+      "image": "fujifilmxt4.jpg"
+    },
+    {
+      "name": "HP Spectre x360",
+      "brand": "HP",
+      "category": "Laptops",
+      "price": 379990,
+      "id": 22,
+      "image": "hpspectrex360.jpg"
+    },
+    {
+      "name": "Nike Air Jordan 1",
+      "brand": "Nike",
+      "category": "Footwear",
+      "price": 29990,
+      "id": 23,
+      "image": "airjordan1.jpg"
+    },
+    {
+      "name": "Sonos One",
+      "brand": "Sonos",
+      "category": "Smart Speakers",
+      "price": 49990,
+      "id": 24,
+      "image": "sonosone.jpg"
+    },
+    {
+      "name": "Fitbit Charge 4",
+      "brand": "Fitbit",
+      "category": "Fitness Trackers",
+      "price": 36990,
+      "id": 25,
+      "image": "fitbitcharge4.jpg"
+    },
+    {
+      "name": "Nintendo Switch",
+      "brand": "Nintendo",
+      "category": "Gaming Consoles",
+      "price": 59990,
+      "id": 26,
+      "image": "nintendoswitch.jpg"
+    },
+    {
+      "name": "DJI Mavic Air 2",
+      "brand": "DJI",
+      "category": "Drones",
+      "price": 279990,
+      "id": 27,
+      "image": "djimavicair2.jpg"
+    },
+    {
+      "name": "Samsung QLED Q80A",
+      "brand": "Samsung",
+      "category": "Televisions",
+      "price": 769990,
+      "id": 28,
+      "image": "samsungq80a.jpg"
+    },
+    {
+      "name": "Tesla Model Y",
+      "brand": "Tesla",
+      "category": "Electric Vehicles",
+      "price": 18750000,
+      "id": 29,
+      "image": "teslamodely.jpg"
+    },
+    {
+      "name": "Apple Watch Series 7",
+      "brand": "Apple",
+      "category": "Smartwatches",
+      "price": 77990,
+      "id": 30,
+      "image": "applewatchseries7.jpg"
+    },
+    {
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "price": 509990,
+      "id": 31,
+      "image": "thinkpadx1carbon.jpg"
+    },
+    {
+      "name": "Puma RS-X",
+      "brand": "Puma",
+      "category": "Footwear",
+      "price": 16990,
+      "id": 32,
+      "image": "pumarsx.jpg"
+    },
+    {
+      "name": "JBL Flip 5",
+      "brand": "JBL",
+      "category": "Portable Speakers",
+      "price": 27990,
+      "id": 33,
+      "image": "jblflip5.jpg"
+    },
+    {
+      "name": "Amazon Kindle Paperwhite",
+      "brand": "Amazon",
+      "category": "E-readers",
+      "price": 27990,
+      "id": 34,
+      "image": "kindlepaperwhite.jpg"
+    },
+    {
+      "name": "Fitbit Inspire 2",
+      "brand": "Fitbit",
+      "category": "Fitness Trackers",
+      "price": 25990,
+      "id": 35,
+      "image": "fitbitinspire2.jpg"
+    },
+    {
+      "name": "PlayStation VR",
+      "brand": "Sony",
+      "category": "Gaming Accessories",
+      "price": 87990,
+      "id": 36,
+      "image": "playstationvr.jpg"
+    },
+    {
+      "name": "Nikon D850",
+      "brand": "Nikon",
+      "category": "Cameras",
+      "price": 1099990,
+      "id": 37,
+      "image": "nikond850.jpg"
+    },
+    {
+      "name": "Acer Predator Helios 300",
+      "brand": "Acer",
+      "category": "Gaming Laptops",
+      "price": 374990,
+      "id": 38,
+      "image": "predatorhelios300.jpg"
+    },
+    {
+      "name": "New Balance 574",
+      "brand": "New Balance",
+      "category": "Footwear",
+      "price": 19990,
+      "id": 39,
+      "image": "newbalance574.jpg"
+    },
+    {
+      "name": "Apple HomePod mini",
+      "brand": "Apple",
+      "category": "Smart Speakers",
+      "price": 49990,
+      "id": 40,
+      "image": "applehomepodmini.jpg"
+    },
+    {
+      "name": "Garmin Fenix 6 Pro",
+      "brand": "Garmin",
+      "category": "Fitness Watches",
+      "price": 127990,
+      "id": 41,
+      "image": "garminfenix6pro.jpg"
+    },
+    {
+      "name": "Nintendo Switch Lite",
+      "brand": "Nintendo",
+      "category": "Gaming Consoles",
+      "price": 69990,
+      "id": 42,
+      "image": "nintendoswitchlite.jpg"
+    },
+    {
+      "name": "DJI Osmo Pocket",
+      "brand": "DJI",
+      "category": "Handheld Cameras",
+      "price": 49990,
+      "id": 43,
+      "image": "djiosmopocket.jpg"
+    },
+    {
+      "name": "Sony Bravia A8H",
+      "brand": "Sony",
+      "category": "Televisions",
+      "price": 679990,
+      "id": 44,
+      "image": "sonya8h.jpg"
+    },
+    {
+      "name": "Ford Mustang Mach-E",
+      "brand": "Ford",
+      "category": "Electric Vehicles",
+      "price": 19699000,
+      "id": 45,
+      "image": "fordmustangmache.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Watch Active 2",
+      "brand": "Samsung",
+      "category": "Smartwatches",
+      "price": 39990,
+      "id": 46,
+      "image": "galaxywatchactive2.jpg"
+    },
+    {
+      "name": "Lenovo Legion 5",
+      "brand": "Lenovo",
+      "category": "Gaming Laptops",
+      "price": 259990,
+      "id": 47,
+      "image": "lenovolegion5.jpg"
+    },
+    {
+      "name": "Reebok Nano X",
+      "brand": "Reebok",
+      "category": "Footwear",
+      "price": 19990,
+      "id": 48,
+      "image": "reeboknanox.jpg"
+    },
+    {
+      "name": "Bose SoundLink Revolve+",
+      "brand": "Bose",
+      "category": "Portable Speakers",
+      "price": 52990,
+      "id": 49,
+      "image": "bosesoundlinkrevolve.jpg"
+    },
+    {
+      "name": "Apple iPad Air (4th Gen)",
+      "brand": "Apple",
+      "category": "Tablets",
+      "price": 134990,
+      "id": 50,
+      "image": "ipadair4thgen.jpg"
+    }
+  ],
+
+  "brands": [
+    {
+      "brand": "Sony v",
+      "imageUrl": "https://www.pexels.com/photo/man-creating-a-presentation-on-laptop-3153204?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Google",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Garmin",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Microsoft",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Fujifilm",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "HP",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Nike",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Sonos",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Fitbit",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Nintendo",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "DJI",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Samsung",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Tesla",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Apple",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Lenovo",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Puma",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "JBL",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Amazon",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Nikon",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Acer",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "New Balance",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Ford",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Reebok",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    },
+    {
+      "brand": "Bose",
+      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+    }
+  ],
+  "Categories": [
+    "Headphones",
+    "Smart Home",
+    "Fitness Trackers",
+    "Tablets",
+    "Cameras",
+    "Laptops",
+    "Footwear",
+    "Smart Speakers",
+    "Gaming Consoles",
+    "Drones",
+    "Televisions",
+    "Electric Vehicles",
+    "Smartwatches",
+    "Portable Speakers",
+    "E-readers",
+    "Gaming Accessories",
+    "Gaming Laptops",
+    "Handheld Cameras"
+  ]
+}
