@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
-import ProductTable from "./ProductTable";
+import { useParams } from "react-router-dom";
+import ProductCard from "./ProductCard";
 import NoProductsFound from "./NoProductsFound";
 import ProductFilterByBrand from "./ProductFilterByBrand";
 import ProductFilterByCategory from "./ProductFilterByCategory";
@@ -74,41 +74,49 @@ const ProductList = () => {
 
   const filteredProductData = productData.filter(filterProducts);
 
-  const renderProductTable = () => {
+  const renderProductCard = () => {
     if (filteredProductData.length > 0) {
-      return <ProductTable productData={filteredProductData} />;
+      return <ProductCard productData={filteredProductData} />;
     }
     return <NoProductsFound />;
   };
 
   return (
     <div>
-      <Navbar handleSearchChange={handleSearchChange} />
-
-      <div className="row">
-        <div className="col-3">
+      <Navbar
+        handleSearchChange={handleSearchChange}
+        isLoggedIn={false}
+        filterByBrandComponent={
           <ProductFilterByBrand
             productData={productData}
             setFilterByBrand={setFilterByBrand}
             filterByBrand={filterByBrand}
           />
-          {filterByBrand && (
-            <>
-              <ProductFilterByCategory
-                productData={productData}
-                setFilterByCategory={setFilterByCategory}
-                filterByCategory={filterByCategory}
-              />
+        }
+      />
+
+      <div className="row">
+        {filterByBrand && (
+          <div className="col-2">
+            <div className="mb-2">
               <PriceRangeFilter
                 minPrice={minPrice}
                 maxPrice={maxPrice}
                 handleMinPriceChange={handleMinPriceChange}
                 handleMaxPriceChange={handleMaxPriceChange}
               />
-            </>
-          )}
+            </div>
+            <ProductFilterByCategory
+              productData={productData}
+              setFilterByCategory={setFilterByCategory}
+              filterByCategory={filterByCategory}
+            />
+          </div>
+        )}
+
+        <div className="col px-3">
+          <div className="row">{renderProductCard()}</div>
         </div>
-        <div className="col-9">{renderProductTable()}</div>
       </div>
     </div>
   );

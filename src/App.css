@@ -4,9 +4,7 @@
 .navbar .navbar-brand img {
   max-width: 100px;
 }
-.navbar .navbar-nav .nav-link {
-  color: #000;
-}
+
 @media screen and (min-width: 1024px) {
   .navbar {
     letter-spacing: 0.1em;
@@ -219,7 +217,6 @@ body {
 }
 
 .navbar-nav .nav-link {
-  color: #000 !important;
   padding: 0.5rem 0rem !important;
   border-color: transparent;
   margin-left: 1.5rem;
@@ -228,15 +225,6 @@ body {
 
 .navbar .navbar-toggler:focus {
   box-shadow: none;
-}
-
-.navbar-nav .nav-link.active,
-.border-red {
-  border-bottom: 3px solid #b71c1c;
-}
-
-.navbar-nav .nav-link:hover {
-  border-bottom: 3px solid #b71c1c;
 }
 
 .container .product-item {
@@ -343,7 +331,7 @@ body {
 @media (max-width: 767.5px) {
   .navbar-nav .nav-link.active,
   .navbar-nav .nav-link:hover {
-    background-color: #b71c1c;
+    background-color: #571cb7;
     color: #fff !important;
   }
 

@@ -1,13 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import SearchComponent from "../SearchComponent";
 
-const Navbar = ({ filterByBrandComponent, handleSearchChange }) => {
+const Navbar = ({
+  isLoggedIn,
+  handleLogout,
+  filterByBrandComponent,
+  handleSearchChange,
+}) => {
+  const handleLogoutClick = () => {
+    handleLogout();
+  };
+
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light">
       <div className="container-xl">
-        <a className="navbar-brand" href="/">
-          <img src="/images/img1.jpg" alt="" />
-        </a>
+        <Link className="navbar-brand" to="/">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
+            alt=""
+          />
+          <span className="brand-name">buyLotus</span>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,9 +36,9 @@ const Navbar = ({ filterByBrandComponent, handleSearchChange }) => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/">
-                Home
-              </a>
+              <Link className="nav-link active" to="/#about">
+                About
+              </Link>
             </li>
             {filterByBrandComponent && (
               <li className="nav-item">{filterByBrandComponent}</li>
@@ -34,18 +48,33 @@ const Navbar = ({ filterByBrandComponent, handleSearchChange }) => {
             <SearchComponent handleSearchChange={handleSearchChange} />
             <div className="user-icons d-flex mb-2">
               <div className="profile">
-                <i className="bi bi-person"></i>
+                {isLoggedIn ? (
+                  <Link to="/profile">
+                    <i className="bi bi-person"></i>
+                  </Link>
+                ) : (
+                  <Link to="/login">
+                    <i className="bi bi-person"></i>
+                  </Link>
+                )}
               </div>
               <div className="wishlist">
-                <i className="bi bi-heart"></i>
+                <Link to={isLoggedIn ? "/wishlist" : "/login"}>
+                  <i className="bi bi-heart"></i>
+                </Link>
               </div>
               <div className="cart">
-                <i className="bi bi-cart3"></i>
+                <Link to={isLoggedIn ? "/cart" : "/login"}>
+                  <i className="bi bi-cart"></i>
+                </Link>
               </div>
             </div>
           </div>
 
-          <div className="contact-info d-md-flex">
+          <div
+            className="
+contact-info d-md-flex"
+          >
             <p>+0987654321 | +1234567890 </p>
             <p>
               <a href="mailto:">contact@domainname.com</a>
