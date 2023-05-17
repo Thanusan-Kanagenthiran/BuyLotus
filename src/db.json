@@ -404,100 +404,124 @@
 
   "brands": [
     {
-      "brand": "Sony v",
-      "imageUrl": "https://www.pexels.com/photo/man-creating-a-presentation-on-laptop-3153204?auto=compress&cs=tinysrgb&h=100"
+      "id": 1,
+      "brand": "Sony",
+      "image": "/images/sony.jpg"
     },
     {
+      "id": 2,
       "brand": "Google",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/google.gif"
     },
     {
+      "id": 3,
       "brand": "Garmin",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/garmin.jpg"
     },
     {
+      "id": 4,
       "brand": "Microsoft",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/microsoft.png"
     },
     {
+      "id": 5,
       "brand": "Fujifilm",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/fujifilm.png"
     },
     {
+      "id": 6,
       "brand": "HP",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/hp.png"
     },
     {
+      "id": 7,
       "brand": "Nike",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/nike.png"
     },
     {
+      "id": 8,
       "brand": "Sonos",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/Sonos.png"
     },
     {
+      "id": 9,
       "brand": "Fitbit",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/Fitbit.png"
     },
     {
+      "id": 10,
       "brand": "Nintendo",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/Nintendo.png"
     },
     {
+      "id": 11,
       "brand": "DJI",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/dji.jpg"
     },
     {
+      "id": 12,
       "brand": "Samsung",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/samsung.png"
     },
     {
+      "id": 13,
       "brand": "Tesla",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/tesla.png"
     },
     {
+      "id": 14,
       "brand": "Apple",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/apple.png"
     },
     {
+      "id": 15,
       "brand": "Lenovo",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/Lenovo.png"
     },
     {
+      "id": 16,
       "brand": "Puma",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/puma.png"
     },
     {
+      "id": 17,
       "brand": "JBL",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/jbl.png"
     },
     {
+      "id": 18,
       "brand": "Amazon",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.png?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/amazon.png"
     },
     {
+      "id": 19,
       "brand": "Nikon",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/nikon.png"
     },
     {
+      "id": 20,
       "brand": "Acer",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/acer.png"
     },
     {
+      "id": 21,
       "brand": "New Balance",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/newbalance.png"
     },
     {
+      "id": 22,
       "brand": "Ford",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/ford.png"
     },
     {
+      "id": 23,
       "brand": "Reebok",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/reebok.png"
     },
     {
+      "id": 24,
       "brand": "Bose",
-      "imageUrl": "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=100"
+      "image": "/images/bose.png"
     }
   ],
   "Categories": [

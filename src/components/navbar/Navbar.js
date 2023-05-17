@@ -40,8 +40,9 @@ const Navbar = ({
                 About
               </Link>
             </li>
+
             {filterByBrandComponent && (
-              <li className="nav-item">{filterByBrandComponent}</li>
+              <li className="nav-item">{filterByBrandComponent} </li>
             )}
           </ul>
           <div className="search-and-icons">

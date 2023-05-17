@@ -6,6 +6,7 @@ import ProductFilterByBrand from "./ProductFilterByBrand";
 import ProductFilterByCategory from "./ProductFilterByCategory";
 import PriceRangeFilter from "./PriceRangeFilter";
 import Navbar from "./navbar/Navbar";
+import BrandsList from "./BrandsList";
 
 const ProductList = () => {
   const [productData, setProductData] = useState([]);
