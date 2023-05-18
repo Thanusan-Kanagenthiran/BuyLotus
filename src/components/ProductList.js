@@ -6,10 +6,11 @@ import ProductFilterByBrand from "./ProductFilterByBrand";
 import ProductFilterByCategory from "./ProductFilterByCategory";
 import PriceRangeFilter from "./PriceRangeFilter";
 import Navbar from "./navbar/Navbar";
-import BrandsList from "./BrandsList";
+import Loader from "./Loader";
 
 const ProductList = () => {
   const [productData, setProductData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
   const [filterByBrand, setFilterByBrand] = useState(null);
   const [filterByCategory, setFilterByCategory] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
@@ -28,11 +29,16 @@ const ProductList = () => {
 
   const fetchProductData = async () => {
     try {
+      setIsLoading(true); // Start loading
+
       const response = await fetch("http://localhost:8000/products");
       const data = await response.json();
       setProductData(data);
+
+      setIsLoading(false); // Stop loading
     } catch (error) {
       console.log(error);
+      setIsLoading(false); // Stop loading in case of error
     }
   };
 
@@ -116,7 +122,13 @@ const ProductList = () => {
         )}
 
         <div className="col px-3">
-          <div className="row">{renderProductCard()}</div>
+          <div className="row">
+            {isLoading ? ( // Render the loader if isLoading is true
+              <Loader />
+            ) : (
+              renderProductCard() // Render the product cards or "NoProductsFound" component
+            )}
+          </div>
         </div>
       </div>
     </div>

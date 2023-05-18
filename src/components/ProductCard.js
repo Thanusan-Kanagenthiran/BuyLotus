@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ProductCard = ({ productData }) => {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ const ProductCard = ({ productData }) => {
       <div className="text-center container py-5">
         <div className="row">
           {productData.map((product) => (
-            <div className="col-lg-3 col-md-4 col-6 mb-4" key={product.id}>
+            <div className="col mb-4" key={product.id}>
               <div className="card h-100">
                 <div
                   className="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
@@ -33,7 +33,7 @@ const ProductCard = ({ productData }) => {
                 >
                   <img
                     src={product.image}
-                    className="h-100 img-fluid"
+                    className="h-100 img-fluid pt-3 rounded"
                     alt={product.name}
                     style={{ maxHeight: "150px", objectFit: "cover" }}
                   />
@@ -43,6 +43,7 @@ const ProductCard = ({ productData }) => {
                       href="#!"
                       role="button"
                       data-mdb-ripple-color="dark"
+                      onClick={() => handleAddToWishlist(product.id)}
                     >
                       <i className="bi bi-heart-fill"></i>
                     </a>
@@ -52,6 +53,7 @@ const ProductCard = ({ productData }) => {
                       href="#!"
                       role="button"
                       data-mdb-ripple-color="dark"
+                      onClick={() => handleAddToCart(product.id)}
                     >
                       <i className="bi bi-cart-fill"></i>
                     </a>
@@ -76,14 +78,15 @@ const ProductCard = ({ productData }) => {
                       {product.name}
                     </h5>
                   </a>
-                  <a href="/" className="text-reset">
+                  <Link to={"/brand/" + product.brand}>
                     <p>{product.brand}</p>
-                  </a>
+                  </Link>
+
                   {product.discount ? (
                     <h6 className="mb-3">
-                      <s>${product.price}</s>
+                      <s>Rs. {product.price}</s>
                       <strong className="ms-2 text-danger">
-                        $
+                        Rs.
                         {(
                           (product.price * (100 - product.discount)) /
                           100
@@ -91,7 +94,7 @@ const ProductCard = ({ productData }) => {
                       </strong>
                     </h6>
                   ) : (
-                    <h6 className="mb-3">${product.price}</h6>
+                    <h6 className="mb-3">Rs. {product.price}</h6>
                   )}
                 </div>
               </div>

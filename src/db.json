@@ -222,7 +222,7 @@
       "category": "Televisions",
       "price": 769990,
       "id": 28,
-      "image": "images/samsungq80a.png"
+      "image": "images/samsungqledq80a.webp"
     },
     {
       "name": "Tesla Model Y",
@@ -238,7 +238,7 @@
       "category": "Smartwatches",
       "price": 77990,
       "id": 30,
-      "image": "images/applewatchseries7.png"
+      "image": "images/applewatchseries7.jpg"
     },
     {
       "name": "Lenovo ThinkPad X1 Carbon",
@@ -246,7 +246,7 @@
       "category": "Laptops",
       "price": 509990,
       "id": 31,
-      "image": "images/thinkpadx1carbon.png"
+      "image": "images/lenovothinkpadx1carbon.jpg"
     },
     {
       "name": "Puma RS-X",
@@ -270,7 +270,7 @@
       "category": "E-readers",
       "price": 27990,
       "id": 34,
-      "image": "images/kindlepaperwhite.png"
+      "image": "images/amazonkindlepaperwhite.png"
     },
     {
       "name": "Fitbit Inspire 2",
@@ -286,7 +286,7 @@
       "category": "Gaming Accessories",
       "price": 87990,
       "id": 36,
-      "image": "images/playstationvr.png"
+      "image": "images/playstationvr.jpg"
     },
     {
       "name": "Nikon D850",
@@ -294,7 +294,7 @@
       "category": "Cameras",
       "price": 1099990,
       "id": 37,
-      "image": "images/nikond850.png"
+      "image": "images/nikond850.jpg"
     },
     {
       "name": "Acer Predator Helios 300",
@@ -302,7 +302,7 @@
       "category": "Gaming Laptops",
       "price": 374990,
       "id": 38,
-      "image": "images/predatorhelios300.png"
+      "image": "images/predatorhelios300.jpg"
     },
     {
       "name": "New Balance 574",
@@ -406,124 +406,125 @@
     {
       "id": 1,
       "brand": "Sony",
-      "image": "/images/sony.jpg"
+      "image": "images/sony.jpg"
     },
     {
       "id": 2,
       "brand": "Google",
-      "image": "/images/google.gif"
+      "image": "images/google.gif"
     },
     {
       "id": 3,
       "brand": "Garmin",
-      "image": "/images/garmin.jpg"
+      "image": "images/garmin.jpg"
     },
     {
       "id": 4,
       "brand": "Microsoft",
-      "image": "/images/microsoft.png"
+      "image": "images/microsoft.png"
     },
     {
       "id": 5,
       "brand": "Fujifilm",
-      "image": "/images/fujifilm.png"
+      "image": "images/fujifilm.png"
     },
     {
       "id": 6,
       "brand": "HP",
-      "image": "/images/hp.png"
+      "image": "images/hp.png"
     },
     {
       "id": 7,
       "brand": "Nike",
-      "image": "/images/nike.png"
+      "image": "images/nike.png"
     },
     {
       "id": 8,
       "brand": "Sonos",
-      "image": "/images/Sonos.png"
+      "image": "images/Sonos.png"
     },
     {
       "id": 9,
       "brand": "Fitbit",
-      "image": "/images/Fitbit.png"
+      "image": "images/Fitbit.jpg"
     },
     {
       "id": 10,
       "brand": "Nintendo",
-      "image": "/images/Nintendo.png"
+      "image": "images/Nintendo.png"
     },
     {
       "id": 11,
       "brand": "DJI",
-      "image": "/images/dji.jpg"
+      "image": "images/dji.jpg"
     },
     {
       "id": 12,
       "brand": "Samsung",
-      "image": "/images/samsung.png"
+      "image": "images/samsung.png"
     },
     {
       "id": 13,
       "brand": "Tesla",
-      "image": "/images/tesla.png"
+      "image": "images/tesla.png"
     },
     {
       "id": 14,
       "brand": "Apple",
-      "image": "/images/apple.png"
+      "image": "images/apple.png"
     },
     {
       "id": 15,
       "brand": "Lenovo",
-      "image": "/images/Lenovo.png"
+      "image": "images/Lenovo.png"
     },
     {
       "id": 16,
       "brand": "Puma",
-      "image": "/images/puma.png"
+      "image": "images/puma.png"
     },
     {
       "id": 17,
       "brand": "JBL",
-      "image": "/images/jbl.png"
+      "image": "images/jbl.png"
     },
     {
       "id": 18,
       "brand": "Amazon",
-      "image": "/images/amazon.png"
+      "image": "images/amazon.png"
     },
     {
       "id": 19,
       "brand": "Nikon",
-      "image": "/images/nikon.png"
+      "image": "images/nikon.png"
     },
     {
       "id": 20,
       "brand": "Acer",
-      "image": "/images/acer.png"
+      "image": "images/acer.png"
     },
     {
       "id": 21,
       "brand": "New Balance",
-      "image": "/images/newbalance.png"
+      "image": "images/newbalance.jpg"
     },
     {
       "id": 22,
       "brand": "Ford",
-      "image": "/images/ford.png"
+      "image": "images/ford.png"
     },
     {
       "id": 23,
       "brand": "Reebok",
-      "image": "/images/reebok.png"
+      "image": "images/reebok.png"
     },
     {
       "id": 24,
       "brand": "Bose",
-      "image": "/images/bose.png"
+      "image": "images/bose.png"
     }
   ],
+
   "Categories": [
     "Headphones",
     "Smart Home",

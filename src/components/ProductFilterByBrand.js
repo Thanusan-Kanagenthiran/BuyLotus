@@ -14,7 +14,6 @@ const ProductFilterByBrand = ({ filterByBrand, setFilterByBrand }) => {
       const response = await fetch("http://localhost:8000/brands");
       const data = await response.json();
       setBrands(data);
-      console.log(data);
     } catch (error) {
       console.log(error);
     }
@@ -41,17 +40,18 @@ const ProductFilterByBrand = ({ filterByBrand, setFilterByBrand }) => {
         aria-labelledby="dropdownMenuButton"
       >
         <li>
-          <div className="border" style={{ display: "flex", flexWrap: "wrap" }}>
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
             {brands.map((brand) => (
               <div
                 key={brand.id}
-                style={{ width: "33%", padding: "10px" }}
                 onClick={() => handleBrandClick(brand.brand)}
+                style={{ padding: "10px" }}
               >
                 <img
+                  className="border"
                   src={brand.image}
                   alt={brand.brand}
-                  style={{ width: "120px" }}
+                  style={{ width: "130px" }}
                 />
               </div>
             ))}

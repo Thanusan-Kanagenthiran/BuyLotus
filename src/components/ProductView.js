@@ -5,7 +5,6 @@ import Navbar from "./navbar/Navbar";
 const ProductView = () => {
   const { productid } = useParams();
   const [product, setProduct] = useState({});
-  const [imageError, setImageError] = useState(false);
 
   useEffect(() => {
     fetch("http://localhost:8000/products/" + productid)
@@ -18,13 +17,8 @@ const ProductView = () => {
       });
   }, [productid]);
 
-  const handleImageError = () => {
-    setImageError(true);
-  };
-
   return (
     <>
-      {" "}
       <Navbar />
       <div className="container mt-5 mb-5">
         <div className="card">
@@ -32,17 +26,12 @@ const ProductView = () => {
             <div className="col-md-6 border-end">
               <div className="d-flex flex-column justify-content-center">
                 <div className="main_image">
-                  {!imageError ? (
-                    <img
-                      src={`/images/lgoledc1`}
-                      onError={handleImageError}
-                      id="main_product_image"
-                      alt=""
-                      width="350"
-                    />
-                  ) : (
-                    <span>Image not found</span>
-                  )}
+                  <img
+                    src={"http://localhost:8000/" + product.image}
+                    className="h-100 img-fluid pt-3 rounded"
+                    alt={product.name}
+                    style={{ maxHeight: "300px", objectFit: "cover" }}
+                  />
                 </div>
               </div>
             </div>

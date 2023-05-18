@@ -2,25 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SearchComponent from "../SearchComponent";
 
-const Navbar = ({
-  isLoggedIn,
-  handleLogout,
-  filterByBrandComponent,
-  handleSearchChange,
-}) => {
-  const handleLogoutClick = () => {
-    handleLogout();
-  };
-
+const Navbar = ({ isLoggedIn, filterByBrandComponent, handleSearchChange }) => {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light">
       <div className="container-xl">
         <Link className="navbar-brand" to="/">
-          <img
-            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
-            alt=""
-          />
-          <span className="brand-name">buyLotus</span>
+          <img src="/images/lotus.webp" alt="" />
+          <span className="display-5 brand-name">
+            <em>buy</em>Lotus
+          </span>
         </Link>
         <button
           className="navbar-toggler"
@@ -37,7 +27,7 @@ const Navbar = ({
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link active" to="/#about">
-                About
+                <h5> About</h5>
               </Link>
             </li>
 
@@ -47,26 +37,20 @@ const Navbar = ({
           </ul>
           <div className="search-and-icons">
             <SearchComponent handleSearchChange={handleSearchChange} />
-            <div className="user-icons d-flex mb-2">
-              <div className="profile">
-                {isLoggedIn ? (
-                  <Link to="/profile">
-                    <i className="bi bi-person"></i>
-                  </Link>
-                ) : (
-                  <Link to="/login">
-                    <i className="bi bi-person"></i>
-                  </Link>
-                )}
+            <div className="p-1 d-flex mb-2">
+              <div className="me-1">
+                <Link to="/login">
+                  <i className="bi bi-person-fill"></i>
+                </Link>
               </div>
-              <div className="wishlist">
-                <Link to={isLoggedIn ? "/wishlist" : "/login"}>
-                  <i className="bi bi-heart"></i>
+              <div className="me-1">
+                <Link to={"/wishlist"}>
+                  <i className="bi bi-heart-fill"></i>
                 </Link>
               </div>
               <div className="cart">
-                <Link to={isLoggedIn ? "/cart" : "/login"}>
-                  <i className="bi bi-cart"></i>
+                <Link to={"/cart"}>
+                  <i className="bi bi-cart-fill"></i>
                 </Link>
               </div>
             </div>
@@ -76,9 +60,9 @@ const Navbar = ({
             className="
 contact-info d-md-flex"
           >
-            <p>+0987654321 | +1234567890 </p>
+            <p>+94772433010 | +94750735185 </p>
             <p>
-              <a href="mailto:">contact@domainname.com</a>
+              <a href="mailto:">thanushmk6@gmail.com</a>
             </p>
           </div>
         </div>
