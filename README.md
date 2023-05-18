@@ -31,7 +31,7 @@ Install dependencies
 Run json server
 
 ```bash
-  json-server --watch db.json --port 8000
+  json-server --watch src/db.json --port 8000
 ```
 
 Start the server
