@@ -104,7 +104,7 @@ const ProductList = () => {
 
       <div className="row">
         {filterByBrand && (
-          <div className="col-2">
+          <div className="col-2 ms-2 bg-light">
             <div className="mb-2">
               <PriceRangeFilter
                 minPrice={minPrice}

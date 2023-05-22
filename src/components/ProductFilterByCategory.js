@@ -11,23 +11,23 @@ const ProductFilterByCategory = ({
 
   return (
     <>
-      <ul className="list-unstyled">
-        <button
-          type="button"
-          className="btn btn-link"
+      <h5 className="text-center">
+        <strong>Categories</strong>
+      </h5>
+      <ul class="list-group ms-2">
+        <li
+          className="btn btn-sm list-group-item mb-2 text-start"
           onClick={() => setFilterByCategory("")}
         >
           All Categories
-        </button>
+        </li>
         {categories.map((category) => (
-          <li key={category}>
-            <button
-              type="button"
-              className="btn btn-link"
-              onClick={() => setFilterByCategory(category)}
-            >
-              {category}
-            </button>
+          <li
+            key={category}
+            className="btn btn-sm list-group-item mb-2 text-start"
+            onClick={() => setFilterByCategory(category)}
+          >
+            {category}
           </li>
         ))}
       </ul>
