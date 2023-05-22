@@ -366,7 +366,7 @@
       "category": "Smartwatches",
       "price": 39990,
       "id": 46,
-      "image": "images/galaxywatchactive2.png"
+      "image": "images/galaxywatchactive2.jpg"
     },
     {
       "name": "Lenovo Legion 5",
@@ -374,7 +374,7 @@
       "category": "Gaming Laptops",
       "price": 259990,
       "id": 47,
-      "image": "images/lenovolegion5.png"
+      "image": "images/lenovolegion5.jpg"
     },
     {
       "name": "Reebok Nano X",
