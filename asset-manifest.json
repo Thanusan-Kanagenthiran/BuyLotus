@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BuyLotus/static/css/main.33b59089.css",
+    "main.js": "/BuyLotus/static/js/main.4a719a9e.js",
+    "static/js/787.5e3be1e9.chunk.js": "/BuyLotus/static/js/787.5e3be1e9.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/BuyLotus/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/BuyLotus/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/BuyLotus/index.html",
+    "main.33b59089.css.map": "/BuyLotus/static/css/main.33b59089.css.map",
+    "main.4a719a9e.js.map": "/BuyLotus/static/js/main.4a719a9e.js.map",
+    "787.5e3be1e9.chunk.js.map": "/BuyLotus/static/js/787.5e3be1e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33b59089.css",
+    "static/js/main.4a719a9e.js"
+  ]
+}
